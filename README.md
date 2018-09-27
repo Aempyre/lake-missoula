@@ -49,7 +49,36 @@ Note:  If you are doing Docker on Windows:
   (Sadly you *will* eventually be forced to upgrade to Windows 10, 
    if not by somebody else, then by Docker eventually...)
 
+  
+  1.  Clone the repository to your machine:  
+      * On the command line, get into the directory you want to be the *parent* of the project directory.
+      * Do:  git clone https://github.com/Aempyre/lake-missoula.git
+
+  2.  Build and run the docker client:
+      * cd into the dockerclient directory.
+      * docker build --tag "fizzbuzz-dockerclient" .  
+        (make sure you have that trailing dot!)
+      * docker run fizzbuzz-dockerclient   
+  
+  3.  Buld and run the bonus client:
+      * cd into the bonusclient directory.
+      * Do:  npm start 
+      * Go:  to the indicated localhost / port address using your web browser.
 
 
 ### Run:
+
+  1.  Just run the backend service using browser address bar:   
+      https://us-central1-sage-yeti-217606.cloudfunctions.net/fizzBuzz?max_range=88
+
+  2.  Run the docker client:   
+      * docker run fizzbuzz-dockerclient
+
+  3.  To test the java client that goes in the docker client without using docker:   
+      * ./build.sh
+      * ./testwithoutdocker.sh         
+        (note comments in the testwithoutdocker script about command line args)
+
+  4.  To run the bonus client:   
+      * 
       
