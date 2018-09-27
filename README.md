@@ -14,19 +14,27 @@ Note:  If you didn't know (and I didn't - lol), "Fizz Buzz" was, and is, an old 
       is absent, and if the range value is present but not a number then it will
       return:  "Input must be a number, or absent for default."
 
-      For example:  
+
+      For example: 
+ 
       https://us-central1-sage-yeti-217606.cloudfunctions.net/fizzBuzz?max_range=33
 
+
       returns:
+
       0, 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 
       17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32.
 
+
+
   2.  A client packaged in a Docker container that will:
-      a) Accept ENV override params for:
-         i.   The FUNCTION_URL -- this is required.
-         ii.  MAX_RANGE        -- this is optional.  note:  The client specification calls for
-                                  defaulting this to 100, the server does that as well, this 
-                                  seems redundant and should be discussed.
+      *  Accept ENV override params for:
+         -  The FUNCTION_URL -- this is required.
+         -  MAX_RANGE        -- this is optional.  note:  The client specification calls for
+                                defaulting this to 100, the server does that as well, this 
+                                seems redundant and should be discussed.
+
+
 
 ### Installation and Setup:
 
