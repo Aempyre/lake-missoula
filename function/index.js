@@ -12,16 +12,24 @@ exports.play = (req, res) => {
   let messageLudicrousRange = "Input range must range from 0 to " + maximumMaxRange + " maximum.";
   
   if (!req.query.max_range) {
+    res.set('Access-Control-Allow-Origin', "*");
+    res.set('Access-Control-Allow-Methods', 'GET, POST');
     res.status(200).send(fizzBuzz(defaultRange));
     
   } else if (isNaN(req.query.max_range)) {
+    res.set('Access-Control-Allow-Origin', "*");
+    res.set('Access-Control-Allow-Methods', 'GET, POST');
   	res.status(400).send(messageNotANumber);
     
   } else if ((req.query.max_range > maximumMaxRange) ||
              (req.query.max_range < 0 )) {
+    res.set('Access-Control-Allow-Origin', "*");
+    res.set('Access-Control-Allow-Methods', 'GET, POST');
     res.status(400).send(messageLudicrousRange);
     
   } else {
+    res.set('Access-Control-Allow-Origin', "*");
+    res.set('Access-Control-Allow-Methods', 'GET, POST');
     res.status(200).send(fizzBuzz(req.query.max_range));
   }
   
