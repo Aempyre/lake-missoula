@@ -1,28 +1,53 @@
+body {
+  background-image: url(./bgfinalmuted.jpg);
+}
+form {
+  font-size: 18px;
+  color: whitesmoke;
+}
+.input-range{
+  background-color: darkolivegreen;
+  color: burlywood;
+}
+.play-button{
+  background-color: burlywood;
+}
+.resultofgame {
+  margin-top: 33px;
+  width: 444px;
+  height: 222px;
+  background-color: darkolivegreen;
+  font-size: 16px;
+  color: whitesmoke;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
 
 .App-header {
-  background-color: #222;
+  background-color: rgb(187, 78, 78);
   height: 150px;
   padding: 20px;
-  color: white;
+  color: whitesmoke;
 }
 
 .App-title {
   font-size: 1.5em;
+  animation: App-title-spin 1 6s linear;
+  animation-delay: 3s;
 }
 
 .App-intro {
   font-size: large;
+  color: beige;
 }
 
-@keyframes App-logo-spin {
+@keyframes App-title-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
