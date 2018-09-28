@@ -34,6 +34,9 @@ Note:  If you didn't know (and I didn't - lol), "Fizz Buzz" was, and is, an old 
                                 defaulting this to 100, the server does that as well, this 
                                 seems redundant and should be discussed.
 
+  3.  A bonus client built as a React.js app that accepts a range through its    
+      webapp UI, then (using axios as specified), gets the game result from the
+      cloud function and displays it in the UI.
 
 
 ### Installation and Setup:
@@ -64,6 +67,7 @@ Note:  If you are doing Docker on Windows:
       * cd into the bonusclient directory.
       * Do:  npm start 
       * Go:  to the indicated localhost / port address using your web browser.
+      * Enter: a range in the UI and click "Play".
 
 
 ### Run:
@@ -80,5 +84,13 @@ Note:  If you are doing Docker on Windows:
         (note comments in the testwithoutdocker script about command line args)
 
   4.  To run the bonus client:   
-      * 
-      
+      * After starting the bonus client app as indicated above,
+      * Navigate your browser to the address the startup script will display.
+       (It should be:  http://localhost:3000/ )
+    
+    Ready to play:   
+    ![](./fizzbuzzplay.png)   
+
+    Result of game:   
+    ![](./fizzbuzzresult.png)    
+ 
