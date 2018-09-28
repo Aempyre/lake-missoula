@@ -89,8 +89,8 @@ Note:  If you are doing Docker on Windows:
        (It should be:  http://localhost:3000/ )
     
     Ready to play:   
-    ![Enter a range and click Play button.](fizzbuzzplay.png)   
+![Enter a range and click Play button.](fizzbuzzplay.png)   
 
     Result of game:   
-    ![After a moment you should see your result.](fizzbuzzresult.png)    
+![After a moment you should see your result.](fizzbuzzresult.png)    
  
