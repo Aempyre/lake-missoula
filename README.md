@@ -45,7 +45,7 @@ Note:  If you didn't know (and I didn't - lol), "Fizz Buzz" was, and is, an old 
 Note:  If you are doing Docker on Windows:   
   Straight Docker needs Hyper-V hence Windows 10 (will directly on Windows)
   If still on Windows 7 or 8 you need to install Docker-Toolbox  
-    (Docker will run inside Virtual Box instead directly on Windows)  
+    (so Docker will run inside Virtual Box instead of directly on Windows)  
 
   https://docs.docker.com/toolbox/  
 
@@ -61,7 +61,7 @@ Note:  If you are doing Docker on Windows:
       * Open a docker quickstart command line.   
         ( your standard command line box may not be configured for docker )  
       * cd into the dockerclient directory.  
-        (like cd   c/Users/worterschmidt/areas_of_interest/projects_troutmoon/test/lake-missoula/dockerclient )
+        (like cd   /c/Users/worterschmidt/areas_of_interest/projects_troutmoon/test/lake-missoula/dockerclient )
       * docker build --tag "fizzbuzz-dockerclient" .  
         ( make sure you have that trailing dot! )   
         ( and ignore if you get this message:   
