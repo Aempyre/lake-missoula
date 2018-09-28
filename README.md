@@ -54,13 +54,21 @@ Note:  If you are doing Docker on Windows:
 
   
   1.  Clone the repository to your machine:  
-      * On the command line, get into the directory you want to be the *parent* of the project directory.
+      * On the command line, get into the directory you want to be the *parent* of the project directory.   
       * Do:  git clone https://github.com/Aempyre/lake-missoula.git
 
   2.  Build and run the docker client:
-      * cd into the dockerclient directory.
+      * Open a docker quickstart command line.   
+        ( your standard command line box may not be configured for docker )  
+      * cd into the dockerclient directory.  
+        (like cd   c/Users/worterschmidt/areas_of_interest/projects_troutmoon/test/lake-missoula/dockerclient )
       * docker build --tag "fizzbuzz-dockerclient" .  
-        (make sure you have that trailing dot!)
+        ( make sure you have that trailing dot! )   
+        ( and ignore if you get this message:   
+          "SECURITY WARNING: You are building a Docker image from Windows against a    
+           non-Windows Docker host. All files and directories added to build context   
+           will have '-rwxr-xr-x' permissions. It is recommended to double check and   
+           reset permissions for sensitive files and directories.)   
       * docker run fizzbuzz-dockerclient   
   
   3.  Buld and run the bonus client:
