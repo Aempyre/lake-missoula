@@ -4,6 +4,8 @@
 # logs
 ### Nothing yet
 
+# executables
+*.class
 
 # Project notes on WIP & TODO list
 todo.txt
