@@ -72,7 +72,7 @@ Note:  If you are doing Docker on Windows:
       * docker run fizzbuzz-dockerclient   
   
   3.  Buld and run the bonus client:
-      * cd into the bonusclient directory.
+      * cd into the bonusclient/client-bonus directory.
       * Do:  npm start 
       * Go:  to the indicated localhost / port address using your web browser.
       * Enter: a range in the UI and click "Play".
