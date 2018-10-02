@@ -61,7 +61,7 @@ Note:  If you are doing Docker on Windows:
       * Open a docker quickstart command line.   
         ( your standard command line box may not be configured for docker )  
       * cd into the dockerclient directory.  
-        (like cd   /c/Users/worterschmidt/areas_of_interest/projects_troutmoon/test/lake-missoula/dockerclient )
+        (like cd   /c/Users/worterschmidt/areas_of_interest/projects_troutmoon/lake-missoula/dockerclient )
       * docker build --tag "fizzbuzz-dockerclient" .  
         ( make sure you have that trailing dot! )   
         ( and ignore if you get this message:   
