@@ -74,7 +74,7 @@ Note:  If you are doing Docker on Windows:
   3.  Buld and run the bonus client:
       * cd into the bonusclient/client-bonus directory.
       * Do:  npm start 
-      * Go:  to the indicated localhost / port address using your web browser.
+      * Go:  to the http://localhost:3000/ address using your web browser.
       * Enter: a range in the UI and click "Play".
 
 
@@ -92,9 +92,9 @@ Note:  If you are doing Docker on Windows:
         (note comments in the testwithoutdocker script about command line args)
 
   4.  To run the bonus client:   
-      * After starting the bonus client app as indicated above,
-      * Navigate your browser to the address the startup script will display.
-       (It should be:  http://localhost:3000/ )
+      * After starting the bonus client app as indicated above ("npm start" in bonusclient/client-bonus directory),
+      * Navigate your browser to http://localhost:3000/
+      * Enter a range and click "play".
     
     Ready to play:   
 ![Enter a range and click Play button.](fizzbuzzplay.png)   
